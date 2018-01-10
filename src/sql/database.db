@@ -1,0 +1,14 @@
+CREATE DATABASE almacenamiento;
+USE almacenamiento;
+
+CREATE TABLE usuarios(
+    id INT,
+    nombre VARCHAR(100),
+    rut VARCHAR(12)
+);
+
+DESCRIBE usuarios;
+
+INSERT INTO usuarios(id, nombre, rut) VALUES (1, 'Israel', '18997752-2);
+
+SELECT * FROM usuarios;
